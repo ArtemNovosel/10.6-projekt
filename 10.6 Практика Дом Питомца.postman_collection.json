@@ -1,0 +1,237 @@
+{
+	"info": {
+		"_postman_id": "767f96b4-1def-4b8e-9ecf-0762519c182c",
+		"name": "10.6 Практика Дом Питомца",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25241177"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://51.250.89.234/api",
+					"protocol": "http",
+					"host": [
+						"51",
+						"250",
+						"89",
+						"234"
+					],
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://51.250.89.234/api/pet/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://51.250.89.234/api/pet/",
+					"protocol": "http",
+					"host": [
+						"51",
+						"250",
+						"89",
+						"234"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://51.250.89.234/api/breed/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://51.250.89.234/api/breed/",
+					"protocol": "http",
+					"host": [
+						"51",
+						"250",
+						"89",
+						"234"
+					],
+					"path": [
+						"api",
+						"breed",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://51.250.89.234/api/pet_status/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://51.250.89.234/api/pet_status/",
+					"protocol": "http",
+					"host": [
+						"51",
+						"250",
+						"89",
+						"234"
+					],
+					"path": [
+						"api",
+						"pet_status",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://51.250.89.234/api/species/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://51.250.89.234/api/species/",
+					"protocol": "http",
+					"host": [
+						"51",
+						"250",
+						"89",
+						"234"
+					],
+					"path": [
+						"api",
+						"species",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://51.250.89.234/api/gender/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://51.250.89.234/api/gender/",
+					"protocol": "http",
+					"host": [
+						"51",
+						"250",
+						"89",
+						"234"
+					],
+					"path": [
+						"api",
+						"gender",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://51.250.89.234/api/owner/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://51.250.89.234/api/owner/",
+					"protocol": "http",
+					"host": [
+						"51",
+						"250",
+						"89",
+						"234"
+					],
+					"path": [
+						"api",
+						"owner",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://51.250.89.234/api/pet_shelter_req/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://51.250.89.234/api/pet_shelter_req/",
+					"protocol": "http",
+					"host": [
+						"51",
+						"250",
+						"89",
+						"234"
+					],
+					"path": [
+						"api",
+						"pet_shelter_req",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://51.250.89.234/api/registration/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://51.250.89.234/api/registration/",
+					"protocol": "http",
+					"host": [
+						"51",
+						"250",
+						"89",
+						"234"
+					],
+					"path": [
+						"api",
+						"registration",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"pm.test(\"Status code is 200\", function () {",
+					"    pm.response.to.have.status(200);",
+					"});"
+				]
+			}
+		}
+	]
+}
